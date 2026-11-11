@@ -19,7 +19,7 @@ import {
 from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCBQibDJ_uoHR31GJM1AweMCCOYOg9KGTM",
+  apiKey: "",
   authDomain: "smartcyclesharing.firebaseapp.com",
   projectId: "smartcyclesharing",
 };
