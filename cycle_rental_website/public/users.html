@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Cycle Sharing - Users</title>
+
+  <style>
+    body{
+      font-family: Arial;
+      background:#111;
+      color:white;
+      padding:20px;
+    }
+
+    input,button{
+      padding:10px;
+      margin:5px;
+      border:none;
+      border-radius:5px;
+    }
+
+    button{
+      background:#00c896;
+      color:white;
+      cursor:pointer;
+    }
+
+    .user-card{
+      background:#1e1e1e;
+      padding:15px;
+      margin-top:10px;
+      border-radius:8px;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>👥 Users</h1>
+
+<a href="index.html">
+  <button>⬅ Home</button>
+</a>
+
+<h2>Add User</h2>
+
+<input id="name" placeholder="Name">
+<input id="phone" placeholder="Phone Number">
+<input id="uid" placeholder="RFID UID">
+
+<br>
+<button onclick="addUser()">Add User</button>
+
+<hr>
+
+<h2>User List</h2>
+
+<div id="userList"></div>
+
+<script type="module" src="app.js"></script>
+
+</body>
+</html>
